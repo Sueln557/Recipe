@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+[class *="col"] {
+  float: left;
+  /*padding: 15px;*/
+}
+
+.row:after {
+  content: : "";
+  clear: both;
+  display: block;
+}
+
+h3 {
+  color: #9c7126;
+}
+
+table, th, td {
+  border: 1px solid blue;  /*turn off borders = 1 orig*/
+}
+
+.wrappersaverateprintshare {
+  width : 120px;
+  border-radius: 10px;
+  background-color: maroon;
+  padding: 1em;
+  }
+  padding: 1em;
+}
+
+.whattodo {
+  background-color: white;
+  width: 1000px;
+  height: 100px;
+  border: 5px solid yellowgreen;  /*turn off borders = 5 orig*/
+  padding: 20px;
+  margin: 5px;
+}
+
+.wrappereasyintermediatehard {
+  width : 400px;
+  padding: 1em;
+}
+
+.wrappereasyintermediatehard {
+  display: flex;
+  /*float:left;*/
+}
