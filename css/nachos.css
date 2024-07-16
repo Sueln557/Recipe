@@ -7,28 +7,32 @@
   /*padding: 15px;*/
 }
 
+body {
+font-family: 'Lucida Sans';Verdana, sans-serif;
+background-color: saddlebrown;
+color: #ffe32e;
+}
+
 .row:after {
   content: : "";
   clear: both;
   display: block;
 }
 
-h3 {
-  color: #9c7126;
+h2 {
+  color: #ffe32e;
 }
 
-table, th, td {
-  border: 1px solid blue;  /*turn off borders = 1 orig*/
+h3 {
+  color: steelblue;
 }
 
 .wrappersaverateprintshare {
-  width : 120px;
+  width : 125px;
   border-radius: 10px;
   background-color: maroon;
   padding: 1em;
   }
-  padding: 1em;
-}
 
 .whattodo {
   background-color: white;
